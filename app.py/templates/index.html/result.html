@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Analysis Result</h1>
+    <div id="resultData">
+        <p>Submitted By: <span id="name"></span></p>
+        <p id="result"></p>
+    </div>
+
+    <a href="/">Back to Report</a>
+
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
+        const result = urlParams.get('result');
+
+        document.getElementById('name').textContent = name;
+        document.getElementById('result').textContent = result;
+    </script>
+</body>
+</html>
+

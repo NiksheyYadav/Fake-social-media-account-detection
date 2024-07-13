@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Report Fake Social Media Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Report Fake Social Media Profile</h1>
+
+    <form id="reportForm" method="POST">
+        <div>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div>
+            <label for="platform">Social Media Platform:</label>
+            <select id="platform" name="platform">
+                <option value="">Select Platform</option>
+                <option value="facebook">Facebook</option>
+                <option value="instagram">Instagram</option>
+                <option value="twitter">Twitter</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="username">Username of the Fake Profile:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+
+        <div>
+            <label for="profileURL">Profile URL:</label>
+            <input type="url" id="profileURL" name="profileURL" required>
+        </div>
+
+        <div>
+            <label for="comments">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Submit Report</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
