@@ -68,9 +68,9 @@ This tool is intended to help identify potentially fake profiles. However, it is
 
 If you have any questions or suggestions, feel free to reach out to me:
 
-* **Your Name:** [Your Name]
-* **GitHub:** [@your-username]
-* **Email:** [Your Email]
+* **Your Name:** Nikshey Yadav
+* **GitHub:** NIksheyYadav
+* **Email:** relativity1905e@gmail.com
 ```
 
 **Additional Notes:**
